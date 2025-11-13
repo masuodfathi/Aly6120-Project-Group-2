@@ -3,9 +3,14 @@
 
 ## Overview of the Business Problem
 
-Samsung's Galaxy series, its main smartphone line that brings in over $100 billion annually, faces ongoing demand forecasting problems in a competive market. Global issues like U.S. tariffs, economic uncertainty, and weak demand in China make these problems worse. In the fourth quarter of 2025, Samsung held a 19% share of the global smartphone market, down from 21% in 2024. The company shipped 61.4 million units but lost an estimated $5-7 billion due to excess inventory and missed sales, according to IDC (IDC, 2025).
 
-These problems come from data being separated across supply chains, consumer trends, and global events. This leads to inventory management that reacts too slowly, hurting profits in high-end models like the Galaxy S25. For example, higher tariffs delayed parts shipments, raised costs by 15%, and caused Samsung to miss a surge in U.S. demand. Meanwhile, competitors like Apple use predictive analytics to produce just-in-time. To fix this, following the CRISP-DM business understanding phase, Samsung should bring together different data sources to improve demand forecasts, cut waste, and respond faster. As Davenport and Harris (2007) note in Competing on Analytics, strong analytics can turn forecasting into a way to drive revenue, which is key for Samsung's Vision 2030 goals in uncertain markets.
+Business Problem Overview
+
+Samsung’s Galaxy smartphone division, which contributes over $100 billion annually in revenue, is struggling with persistent demand forecasting challenges in a volatile global market. External pressures such as U.S. tariffs, economic instability, and weak consumer demand in China have intensified these issues. In the fourth quarter of 2025, Samsung’s global market share declined from 21% to 19%, with 61.4 million units shipped but an estimated $5–7 billion lost due to excess inventory and missed sales opportunities (IDC, 2025).
+
+The root cause lies in the fragmentation of data across supply chain operations, consumer trends, and global events, which prevents timely and accurate forecasting. As a result, Samsung’s inventory management is often reactive rather than predictive especially for premium products like the Galaxy S25 leading to overproduction, stock shortages, and profit erosion. Tariff-related shipment delays and cost increases have further limited the company’s ability to respond quickly to demand surges, particularly in key markets like the U.S.
+
+To remain competitive against analytics-driven rivals such as Apple, Samsung must integrate its disparate data systems and apply advanced predictive analytics. This approach would enable more accurate demand forecasting, reduce waste, optimize inventory, and strengthen decision-making, supporting the company’s Vision 2030 goal of sustainable and data-driven growth.
 
 ## Business Objectives for an Analytics-Based Solution
 1. Strengthen demand forecasting by 25%
