@@ -8,9 +8,14 @@ Samsung's Galaxy series, its main smartphone line that brings in over $100 billi
 These problems come from data being separated across supply chains, consumer trends, and global events. This leads to inventory management that reacts too slowly, hurting profits in high-end models like the Galaxy S25. For example, higher tariffs delayed parts shipments, raised costs by 15%, and caused Samsung to miss a surge in U.S. demand. Meanwhile, competitors like Apple use predictive analytics to produce just-in-time. To fix this, following the CRISP-DM business understanding phase, Samsung should bring together different data sources to improve demand forecasts, cut waste, and respond faster. As Davenport and Harris (2007) note in Competing on Analytics, strong analytics can turn forecasting into a way to drive revenue, which is key for Samsung's Vision 2030 goals in uncertain markets.
 
 ## Business Objectives for an Analytics-Based Solution
-- Increase forecast accuracy by 25%: Use machine learning to better predict demand for Galaxy models, lowering errors from 20% to 15% and allowing for more proactive production changes.
-- Reduce inventory holding costs by 20%: Improve inventory management with real-time simulations, which can free up $1 billion in capital currently tied up in extra parts during tariff changes.
-- Grow market share by 5% in the premium segment: Use trend analysis to tailor regional promotions and aim to sell 2 million more Galaxy S phones in growing markets such as India.
+1. Strengthen demand forecasting by 25%
+Use advanced machine-learning models to improve how Samsung predicts demand for Galaxy devices. More accurate forecasts will help reduce current error rates and give the company enough lead time to adjust production before market shifts hit.
+
+2. Cut inventory carrying costs by 20%
+Introduce real-time inventory simulations and smarter replenishment models to reduce the amount of capital tied up in excess parts. This can unlock close to $1 billion currently sitting in overstock—especially during periods of tariff-driven supply chain delays.
+
+3. Grow premium-segment market share by 5%
+Leverage trend analytics to tailor promotions and product pushes by region. The goal is to sell an additional 2 million Galaxy S-series units in fast-growing markets such as India by matching supply and marketing activity with emerging demand patterns.
 
 ## Leadership Requirements for a Successful Analytics Solution
 
