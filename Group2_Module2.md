@@ -13,9 +13,14 @@ These problems come from data being separated across supply chains, consumer tre
 - Grow market share by 5% in the premium segment: Use trend analysis to tailor regional promotions and aim to sell 2 million more Galaxy S phones in growing markets such as India.
 
 ## Leadership Requirements for a Successful Analytics Solution
-- Executive alignment and sponsorship: Leaders should support incorporating analytics into the supply chain strategy to get buy-in from different teams and ensure resources are prioritized.
-- Promote agile collaboration: Encourage teams to work in short cycles and foster a safe environment for sharing ideas, as Bean (2020) suggests in Fail Fast, Learn Faster. This helps teams innovate even when forecasts are uncertain.
-- Enforce ethical data governance: Establish privacy-compliant systems for handling global data, following Thiemann's (2020) Minding the Machines, to reduce risks such as regulatory fines.
+
+Improving forecasting accuracy requires leadership that can translate analytics strategy into operational impact. First, executive alignment and sponsorship are critical. Leaders must formally prioritize forecasting accuracy, create cross-functional analytics governance structures, and align global operations under a unified data strategy. Strategic leadership principles—anticipating, aligning, and learning—ensure analytics initiatives receive consistent direction and support.
+
+Second, leaders must promote agile collaboration and a data-driven culture. Following Bean’s (2020) agile analytics philosophy, Samsung’s leaders should support rapid experimentation, short feedback loops, and open communication between domain experts, data engineers, and data scientists. This aligns closely with the enhanced CRISP-DM model, which emphasizes human-skill complementarity and continuous iteration (Bokrantz et al., 2024).
+
+Third, leaders must ensure ethical and transparent data governance. Samsung operates across multiple regulatory environments, requiring strict compliance with privacy laws such as GDPR and PIPA. Leadership should implement AI ethics checkpoints, establish data-access protocols, and monitor models for drift and bias (Thiemann, 2020). These practices strengthen organizational trust and improve model reliability during ongoing operation and maintenance.
+
+Finally, leaders should develop analytics literacy across teams, equipping planners and managers to interpret dashboards, understand model limitations, and make informed decisions. This competency-building supports cultural adoption and reduces reliance on technical teams alone.
 
 ## Summary Connecting Business Problem to Data Mining Solution
 Samsung Galaxy's demand forecasting problems, worsend by tariffs and market changes, require data mining to find useful patterns in sources like sales records, economic data, and social media. Using CRISP-DM's modeling and evaluation steps, methods like time-series ARIMA (AutoRegressive Integrated Moving Average) or neural networks can reveal links, such as how tariffs influence U.S. demand, and assist in building models to plan inventory. Following Davenport and Harris's (2007) analytics framework, this approach can cut $5 billion in losses and help Samsung stay ahead of disruptions, supporting a stronger, data-driven business.
@@ -26,12 +31,14 @@ Samsung Galaxy's demand forecasting problems, worsend by tariffs and market chan
 
 
 
-References:
-Bean, R. (2020). Fail fast, learn faster. Wiley.
-Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., & Wirth, R. (2000). CRISP-DM 1.0. SPSS Inc.
-Larson, B. J. (2019). Leading in analytics. Wiley.
-https://www.idc.com/promo/smartphone-market-share/. 
-https://www.statista.com/statistics/276477/global-market-share-held-by-samsung-smartphones/?srsltid=AfmBOorwHTtPv0n8T0FYFSgmIta4mjm_h8m4-0zs3RPRpPhxnmucFpfJ.
+# References:
+1. Bean, R. (2020). Fail fast, learn faster: Lessons in data-driven leadership in an age of disruption, big data, and AI. Wiley.
+2. Bokrantz, J., Skoogh, A., Chukalov, K., & Lideskog, H. (2024). Realising the promises of artificial intelligence in manufacturing by enhancing CRISP-DM. Production Planning & Control.
+3. Thiemann, C. (2020). Minding the machines: Building ethical data and AI governance. Routledge.
+4. Chapman, P., Clinton, J., Kerber, R., Khabaza, T., Reinartz, T., Shearer, C., & Wirth, R. (2000). CRISP-DM 1.0. SPSS Inc.
+5. Larson, B. J. (2019). Leading in analytics. Wiley.
+6. https://www.idc.com/promo/smartphone-market-share/.
+7. https://www.statista.com/statistics/276477/global-market-share-held-by-samsung-smartphones/?srsltid=AfmBOorwHTtPv0n8T0FYFSgmIta4mjm_h8m4-0zs3RPRpPhxnmucFpfJ.
 
 
 
