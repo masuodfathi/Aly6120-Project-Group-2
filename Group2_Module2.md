@@ -2,7 +2,7 @@
 # Business Understanding: Enhancing Demand Forecasting for Samsung Galaxy Smartphones
 
 ## Overview of the Business Problem
-
+1
 
 Business Problem Overview
 
