@@ -4,7 +4,7 @@
 
 Samsung’s Galaxy smartphone division has faced recurring challenges in predicting global demand accurately, resulting in overproduction, missed sales, and inventory losses. To address this issue, the data-understanding phase of the CRISP-DM framework focuses on identifying and assessing the data required to build reliable forecasting models. This section defines the datasets, sources, and quality considerations essential for improving forecasting accuracy and operational agility.
 
-
+## 1. Data Requirements and Rationale
 To improve Samsung's demand forecasting with analytics and the CRISP-DM framework, it is important to use high-quality data sources. These sources should cover consumer behavior, supply chain activity, and market trends. The main requirements are:
 
 Historical Sales Data: Collect weekly or monthly Galaxy sales numbers, regional details, product life cycles, and carrier or retailer data. This helps find trends like seasonality and demand patterns using models such as ARIMA or LSTM.
