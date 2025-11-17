@@ -35,3 +35,11 @@ Align all data to consistent product identifiers and calendar periods.
 Data cleaning and integration will employ ETL pipelines to correct errors, merge disparate systems, and create unified tables for modeling. Maintaining data lineage and documentation within a governance framework supports regulatory compliance and repeatability.
 
 
+## References
+
+https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly.
+https://my.idc.com/getdoc.jsp?containerId=prUS53868725.
+https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results.
+https://www.statista.com/statistics/299144/samsung-smartphone-shipments-worldwide/.
+
+
