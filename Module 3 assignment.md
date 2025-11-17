@@ -20,6 +20,14 @@ By bringing these elements together, Samsung can use AI to improve forecasting, 
 
 Internal data is obtained from Samsung's ERP systems, including SAP for sales records, and from Galaxy device telemetry via Samsung Knox. External data includes IDC's quarterly smartphone shipment trackers (idc.com), Statista's Galaxy sales data from 2010 to 2025 (statista.com), Counterpoint Research's AP-SoC market share reports (counterpointresearch.com), and Samsung's interim financial reports. Economic indicators, such as tariffs, are sourced from APIs like FRED (Federal Reserve Economic Data). These sources are selected for their recent 2025 data and comprehensive detail, as recommended by Leading in Analytics (Larson, 2019).
 
+## 3. Key Data Sources
+
+To fix Samsung’s forecasting problems, the most important data to collect is the information that shows what actually drives demand. First, historical sales data is essential because it reveals patterns by model, season, price, and region. Inventory and supply-chain data also matter since delays, shortages, and overstock directly affect how many phones reach the market on time.
+
+External factors like inflation, tariffs, and overall market conditions help explain why demand rises or drops in certain countries, especially the U.S. and China. Customer-interest data—such as search trends, website visits, and social-media reactions—gives early signs of what people are excited about before sales happen.
+
+Finally, knowing what competitors like Apple are doing and tracking Samsung’s own promotions help the team understand how launches, pricing, and marketing influence buying decisions. Together, these data elements give a complete picture of what shapes demand and where Samsung needs to adjust.
+
 ## 4. Data Governance and Quality Considerations
 
 Strong governance ensures the data are trustworthy and usable. Following the Analytics Leader’s Data Quality Checklist (availability, acquisition cost, integrity, alignment) from the lecture (M3.pptx), Samsung must:
