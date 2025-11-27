@@ -20,34 +20,34 @@ Additionally, clustering methods (such as K-means or hierarchical clustering) he
 
 4. Integration of models: deeper and more actionable insights
 
-`Together, they provide a complete understanding of both behavior over time and behavior across markets.`
+> Together, they provide a complete understanding of both behavior over time and behavior across markets.
 
 ## Alternative modeling approaches
 
 Several alternative models could be used, depending on data complexity and team experience:
 
-**Machine learning forecasting models**
+1. **Machine learning forecasting models**
 
-Random Forest Regressor
+- Random Forest Regressor
 
-Gradient Boosted Trees (XGBoost, LightGBM)
-``These can capture nonlinear patterns but require more data preprocessing and may be less interpretable.``
+- Gradient Boosted Trees (XGBoost, LightGBM)
+> These can capture nonlinear patterns but require more data preprocessing and may be less interpretable.
 
-**Deep learning models**
+2. **Deep learning models**
 
-LSTM (Long Short-Term Memory networks)
+- LSTM (Long Short-Term Memory networks)
 
-Temporal Convolutional Networks
-``These models perform extremely well on complex time-series but require larger datasets, computational resources, and more expertise.``
+- Temporal Convolutional Networks
+> These models perform extremely well on complex time-series but require larger datasets, computational resources, and more expertise.
 
-**Classical statistical alternatives**
+3. **Classical statistical alternatives**
 
-Exponential Smoothing
+- Exponential Smoothing
 
-Holt-Winters
-``Easier to implement but less flexible compared to Prophet or ARIMA.``
+- Holt-Winters
+> Easier to implement but less flexible compared to Prophet or ARIMA.
 
-**Market-basket or association models**
-Useful if analyzing which devices or accessories sell together.
+4. **Market-basket or association models**
+> Useful if analyzing which devices or accessories sell together.
 
 *Overall, the selected strategy (time-series forecasting + regression + clustering) offers the strongest balance between accuracy, interpretability, and practicality, aligning perfectly with Samsung’s demand forecasting and strategic planning goals.*
