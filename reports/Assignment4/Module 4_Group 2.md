@@ -17,6 +17,6 @@ To uncover patterns and generate reliable forecasts from the Samsung Mobile Sale
 - Davenport, T. H., & Harris, J. G. (2007). Competing on analytics. Harvard Business School Press.
 - Kaggle. (2024). Samsung mobile sales dataset. https://www.kaggle.com/datasets/datatechexplorer/samsung-mobile-sales-dataset
 - Larson, B. J. (2019). Leading in analytics. Wiley.
-- Hyndman & Athanasopoulos (2021) → authoritative source for time-series models (ARIMA, seasonality, forecasting).
+- Hyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and practice (3rd ed.). OTexts. https://otexts.com/fpp3/
 
 
