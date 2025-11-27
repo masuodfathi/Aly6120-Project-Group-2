@@ -64,6 +64,7 @@ Several alternative models could be used, depending on data complexity and team 
 *Overall, the selected strategy (time-series forecasting + regression + clustering) offers the strongest balance between accuracy, interpretability, and practicality, aligning perfectly with Samsung’s demand forecasting and strategic planning goals.*
 
 
-References
+# References
+
 Davenport, T. H., & Harris, J. G. (2007). Competing on analytics. Harvard Business School Press. Kaggle. (2024). Samsung mobile sales dataset. https://www.kaggle.com/datasets/datatechexplorer/samsung-mobile-sales-dataset
 
