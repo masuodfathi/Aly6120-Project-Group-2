@@ -1,21 +1,11 @@
-## Data Preparation Project
+## Data Sources
+The main dataset is the “Samsung Mobile Sales Dataset” from Kaggle (2024). This public dataset is updated quarterly and includes over 1,000 rows from 2019 to 2024. It covers key variables for demand forecasting, such as Units Sold (target), Revenue, Market Share, 5G Capability, Regional 5G Coverage, 5G Subscribers, Average 5G Speed, Preference for 5G, Product Model, Year, Quarter, and Region.
 
-#1. Data Sources
-The main data source is the “Samsung Mobile Sales Dataset” (Kaggle, 2024), 
-which is a quarterly dataset with over 1,000 rows from 2019 to 2024. 
-It includes key variables like Units Sold, Revenue, Market Share, 5G Capability, Regional 5G Coverage, 
-Subscribers, Speed, Preference, and Region. For validation and benchmarking.
-
-
-## 2. Internal vs. External
-Right now, all data comes from extrnal sources, specifically the public Kaggle release. 
-In an actual Samsung project, about 60–70% of the data would be internal, such as SAP ERP sales records, 
-Samsung Members telemetry, supply chain planning, and procurement logs. The remaining 30–40% would be external 
-tracking competitor activity, macroeconomic factors such as tariffs and GDP, and independent 5G rollout data that 
-Samsung does not have internally.
+Right now, all data is external and comes from the public Kaggle release. In a real Samsung-led project, about 100 percent of the data would be internal, including SAP ERP sales transactions, Samsung Members device telemetry, supply-chain planning, component procurement logs, and carrier partnership reports.
 
 ## 3. How Data Would Be Acquired
-
+The Kaggle dataset is downloaded once using the API (kaggle datasets download -d datatechexplorer/samsung-mobile-sales-dataset).
+Internal data is extracted every quarter from SAP HANA and Samsung’s data lake using secure ODBC connectors or Samsung’s internal APIs. The data is then loaded into Snowflake or Databricks.
 
 ## 4. Team Members to Collaborate With
 
