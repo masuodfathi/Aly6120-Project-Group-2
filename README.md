@@ -1,21 +1,2 @@
-# Aly6120-Project-Group-2
-Collins 
 
-## 1. Data Sources
-The main data source is the “Samsung Mobile Sales Dataset” (Kaggle, 2024), which is a quarterly dataset with over 1,000 rows from 2019 to 2024.
-It includes key variables like Units Sold, Revenue, Market Share, 5G Capability, Regional 5G Coverage, Subscribers, Speed,
-Preference, and Region. For validation and benchmarking.
-
-## 3. Internal vs. External
-Right now, all data comes from external sources, specifically the public Kaggle release. In an actual Samsung project, about 60–70% of the
-data would be internal, such as SAP ERP sales records, Samsung Members telemetry, supply chain planning, and procurement logs.
-The remaining 30–40% would be external tracking competitor activity, macroeconomic factors such as tariffs and GDP, and independent 5G
-rollout data that Samsung does not have internally.
-
-## References
-
-Davenport, T. H., & Harris, J. G. (2007). Competing on analytics. Harvard Business School Press.
-Kaggle. (2024). Samsung mobile sales dataset. https://www.kaggle.com/datasets/datatechexplorer/samsung-mobile-sales-dataset
-Larson, B. J. (2019). Leading in analytics. Wiley.
-Here are four EDA questions and answers based on your original Samsung.csv dataset.
 
