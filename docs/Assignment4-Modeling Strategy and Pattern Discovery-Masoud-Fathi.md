@@ -1,3 +1,14 @@
+# Data Sources
+The main dataset is the “Samsung Mobile Sales Dataset” from Kaggle (2024). This public dataset is updated quarterly and includes over 1,000 rows from 2019 to 2024. It covers key variables for demand forecasting, such as Units Sold (target), Revenue, Market Share, 5G Capability, Regional 5G Coverage, 5G Subscribers, Average 5G Speed, Preference for 5G, Product Model, Year, Quarter, and Region. 
+
+Right now, all data is external and comes from the public Kaggle release. In a real Samsung-led project, about 100 percent of the data would be internal, including SAP ERP sales transactions, Samsung Members device telemetry, supply-chain planning, component procurement logs, and carrier partnership reports. 
+
+# Acquisition Plan
+
+* The Kaggle dataset is downloaded once using the API (kaggle datasets download -d datatechexplorer/samsung-mobile-sales-dataset).
+* Internal data is extracted every quarter from SAP HANA and Samsung’s data lake using secure ODBC connectors or Samsung’s internal APIs. The data is then loaded into Snowflake or Databricks.
+
+
 # Modeling Strategy and Pattern Discovery
 
 To extract meaningful patterns and generate reliable forecasts from the Samsung Mobile Sales Dataset, the modeling strategy must align with both the structure of the data and the overall business objective. The sales data is inherently time-dependent, influenced by pricing cycles, product releases, macroeconomic conditions, and competitive trends. Because of this temporal nature, time-series forecasting models such as ARIMA or Prophet are highly effective. These models can capture seasonality, long-term trends, and sudden shifts in demand. Prophet, in particular, handles holiday effects and irregular patterns well, which is useful for Samsung’s seasonally driven sales cycles (e.g., Black Friday, new device launches).
