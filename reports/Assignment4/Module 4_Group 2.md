@@ -24,12 +24,12 @@ Samsung does not have internally.
 
 
 ## 6. Models to Discover Meaningful Patterns
-
+To uncover patterns and generate reliable forecasts from the Samsung Mobile Sales Dataset, the strategy combines time-series forecasting, regression analysis, and clustering techniques. Time-series models such as ARIMA or Prophet capture seasonality, product-release effects, and long-term trends, enabling accurate demand forecasting. Regression models help explain the impact of pricing, competitor behavior, and economic indicators, providing insight into why sales fluctuate. Clustering methods, such as K-means, identify groups of markets with similar sales behavior, supporting targeted planning. This approach balances accuracy and interpretability. Although advanced alternatives like gradient boosting or LSTMs exist, they introduce unnecessary complexity for this project’s scope.
 
 ## References
-Davenport, T. H., & Harris, J. G. (2007). Competing on analytics. Harvard Business School Press.
-Kaggle. (2024). Samsung mobile sales dataset. https://www.kaggle.com/datasets/datatechexplorer/samsung-mobile-sales-dataset
-Larson, B. J. (2019). Leading in analytics. Wiley.
-Here are four EDA questions and answers based on your original Samsung.csv dataset.
+- Davenport, T. H., & Harris, J. G. (2007). Competing on analytics. Harvard Business School Press.
+- Kaggle. (2024). Samsung mobile sales dataset. https://www.kaggle.com/datasets/datatechexplorer/samsung-mobile-sales-dataset
+- Larson, B. J. (2019). Leading in analytics. Wiley.
+- Hyndman & Athanasopoulos (2021) → authoritative source for time-series models (ARIMA, seasonality, forecasting).
 
 
