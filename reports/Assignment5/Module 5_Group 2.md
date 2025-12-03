@@ -3,3 +3,9 @@
 To support Samsung’s shift from hindsight-focused analytics to predictive foresight, this project applies two complementary forecasting models: Seasonal ARIMA (SARIMA) and Gradient Boosted Decision Trees (XGBoost). SARIMA is selected for its strength in modeling stable, recurring seasonal patterns in historical smartphone sales, such as demand spikes associated with flagship releases, holiday cycles, and regional promotions. These properties align with time-series forecasting principles emphasizing iterative refinement and seasonality (Hyndman & Athanasopoulos, 2021).
 
 XGBoost complements SARIMA by capturing nonlinear relationships not explained by seasonality, including competitor actions, pricing strategies, marketing intensity, and macroeconomic factors. This dual-model approach aligns with the CRISP-DM Modeling phase, which encourages testing multiple techniques to determine the best business fit (Bokrantz et al., 2023).
+
+# Part 2 How the Models Address the Business Problem
+
+The chosen models help Samsung reach its business goals by making forecasts more accurate, cutting down on extra inventory, and helping the company respond quickly to the market. SARIMA gives a reliable and easy-to-understand forecast for long-term production and purchasing decisions. XGBoost helps Samsung react faster in the short term by capturing the factors that cause demand to change from week to week (Chen & Guestrin, 2016).
+
+By using both models, Samsung’s leaders can look at different demand scenarios, measure supply-chain risks, avoid running out of stock, and keep less money tied up in extra parts. Research shows that combining statistical and machine-learning methods leads to better planning and stronger operations (Makridakis et al., 2018). This approach helps Samsung’s global supply chain work more smoothly, so executives can coordinate production, shipping, and marketing as things change.
