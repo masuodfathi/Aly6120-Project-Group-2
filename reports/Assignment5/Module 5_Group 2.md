@@ -6,6 +6,3 @@ XGBoost complements SARIMA by capturing nonlinear relationships not explained by
 
 # Part 2 How the Models Address the Business Problem
 
-The chosen models help Samsung reach its business goals by making forecasts more accurate, cutting down on extra inventory, and helping the company respond quickly to the market. SARIMA gives a reliable and easy-to-understand forecast for long-term production and purchasing decisions. XGBoost helps Samsung react faster in the short term by capturing the factors that cause demand to change from week to week (Chen & Guestrin, 2016).
-
-By using both models, Samsung’s leaders can look at different demand scenarios, measure supply-chain risks, avoid running out of stock, and keep less money tied up in extra parts. Research shows that combining statistical and machine-learning methods leads to better planning and stronger operations (Makridakis et al., 2018). This approach helps Samsung’s global supply chain work more smoothly, so executives can coordinate production, shipping, and marketing as things change.
