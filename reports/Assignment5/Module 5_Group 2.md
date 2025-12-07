@@ -10,9 +10,11 @@ The chosen models help Samsung reach its business goals by making forecasts more
 
 By using both models, Samsung’s leaders can look at different demand scenarios, measure supply-chain risks, avoid running out of stock, and keep less money tied up in extra parts. Research shows that combining statistical and machine-learning methods leads to better planning and stronger operations (Makridakis et al., 2018). This approach helps Samsung’s global supply chain work more smoothly, so executives can coordinate production, shipping, and marketing as things change.
 
+# Model Pros/Cons + Cross-Functional Collaboration
 
 Predictive models such as logistic regression and decision trees offer complementary value within agile analytics. Logistic regression provides transparency and straightforward interpretability (Provost & Fawcett), but it assumes linear relationships and may underperform with complex interactions.
 
 Decision trees capture non-linear patterns and are easy for stakeholders to understand, yet they risk overfitting and can become unstable with small data shifts (Collier; Saporito). Both models require strong data foundations to remain feasible and maintainable.
 
 Building, validating, and refining these models depends on coordinated roles: data engineers to prepare reliable, iterative data pipelines; data scientists to design and tune the models; BI analysts to align outputs with decision needs; and domain experts to ensure business relevance. Agile leadership principles frequent feedback, cross-functional pairing, and adaptive planning support continuous model improvement and stakeholder trust.
+
