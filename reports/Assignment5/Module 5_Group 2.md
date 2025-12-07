@@ -9,3 +9,10 @@ XGBoost complements SARIMA by capturing nonlinear relationships not explained by
 The chosen models help Samsung reach its business goals by making forecasts more accurate, cutting down on extra inventory, and helping the company respond quickly to the market. SARIMA gives a reliable and easy-to-understand forecast for long-term production and purchasing decisions. XGBoost helps Samsung react faster in the short term by capturing the factors that cause demand to change from week to week (Chen & Guestrin, 2016).
 
 By using both models, Samsung’s leaders can look at different demand scenarios, measure supply-chain risks, avoid running out of stock, and keep less money tied up in extra parts. Research shows that combining statistical and machine-learning methods leads to better planning and stronger operations (Makridakis et al., 2018). This approach helps Samsung’s global supply chain work more smoothly, so executives can coordinate production, shipping, and marketing as things change.
+
+
+Predictive models such as logistic regression and decision trees offer complementary value within agile analytics. Logistic regression provides transparency and straightforward interpretability (Provost & Fawcett), but it assumes linear relationships and may underperform with complex interactions.
+
+Decision trees capture non-linear patterns and are easy for stakeholders to understand, yet they risk overfitting and can become unstable with small data shifts (Collier; Saporito). Both models require strong data foundations to remain feasible and maintainable.
+
+Building, validating, and refining these models depends on coordinated roles: data engineers to prepare reliable, iterative data pipelines; data scientists to design and tune the models; BI analysts to align outputs with decision needs; and domain experts to ensure business relevance. Agile leadership principles frequent feedback, cross-functional pairing, and adaptive planning support continuous model improvement and stakeholder trust.
