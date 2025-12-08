@@ -18,3 +18,9 @@ Decision trees capture non-linear patterns and are easy for stakeholders to unde
 
 Building, validating, and refining these models depends on coordinated roles: data engineers to prepare reliable, iterative data pipelines; data scientists to design and tune the models; BI analysts to align outputs with decision needs; and domain experts to ensure business relevance. Agile leadership principles frequent feedback, cross-functional pairing, and adaptive planning support continuous model improvement and stakeholder trust.
 
+
+# Data Quality Risks & Pattern Identification
+
+Data quality risks can affect how well the model performs, so they need to be identified early. The dataset may contain missing fields, inconsistent entries, or fragmented supply chain records, limiting a full view of product activity. Promotional periods can also create outliers that distort trends. Organizational constraints such as delayed updates, restricted access to source systems, and seasonal drift may further reduce model accuracy. Fixing these problems helps CRISP-DM meet its success criteria by making it more reliable and easier to understand.
+
+Once these risks are managed, the model should reveal meaningful patterns such as seasonal demand cycles, promotion-driven lift, and regional performance differences. These insights strengthen the transition from business understanding to modeling by highlighting the underlying drivers that guide better decisions.
