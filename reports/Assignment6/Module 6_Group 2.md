@@ -42,3 +42,42 @@ Overall Success Criteria
 
 ## 1.6 Leadership Approach
 My leadership style emphasizes strategic clarity, cross-functional collaboration, and clear communication. Structured alignment meetings, visual storytelling, and open discussions around data issues ensure that teams remain aligned and the system gains trust.
+
+
+# 2. Data Understanding
+2.1 Overview of Required Data Sources
+Forecasting requires integrating:
+•	SAP ERP data (sell-in, inventory, open orders)
+•	Retail/carrier sell-out data
+•	Promotion & pricing data
+•	Lead-time and supply-chain metrics
+•	Competitor pricing & launch information
+•	Macroeconomic indicators
+•	Holiday and cultural calendars
+
+Figure 1 High-Level Data Infrastructure Overview
+
+# 2.2 Data Availability
+Internal data is generally accessible but requires standardization. External data may require licensing and legal approvals.
+2.3 Data Quality Challenges
+•	Missing values in promotions and sell-out
+•	Time-zone inconsistencies
+•	Duplicate partner feeds
+•	Outliers from flash sales or delayed reporting
+•	Inconsistent definitions across regions
+
+# 2.4 Cross-Functional Collaboration
+Data engineers, planners, marketing, finance, and executives all play key roles in validating and contextualizing data.
+
+#2.5 Linking Data to Business Problems
+Each dataset addresses a specific challenge—sell-out data prevents stockouts, promotions explain spikes, competitive data reduces unexplained variance, etc.
+
+#2.6 Samsung-Specific Risks
+•	Inconsistent reporting cutoffs
+•	Region-code mismatches between distributors and SAP
+
+# 2.7 Integration Requirements
+•	Unified SKU hierarchy
+•	Standardized time granularity
+•	Consolidated event calendar
+•	Harmonized region mapping
