@@ -45,7 +45,7 @@ My leadership style emphasizes strategic clarity, cross-functional collaboration
 
 
 # 2. Data Understanding
-2.1 Overview of Required Data Sources
+# 2.1 Overview of Required Data Sources
 Forecasting requires integrating:
 •	SAP ERP data (sell-in, inventory, open orders)
 •	Retail/carrier sell-out data
@@ -59,7 +59,7 @@ Figure 1 High-Level Data Infrastructure Overview
 
 # 2.2 Data Availability
 Internal data is generally accessible but requires standardization. External data may require licensing and legal approvals.
-2.3 Data Quality Challenges
+# 2.3 Data Quality Challenges
 •	Missing values in promotions and sell-out
 •	Time-zone inconsistencies
 •	Duplicate partner feeds
@@ -69,7 +69,7 @@ Internal data is generally accessible but requires standardization. External dat
 # 2.4 Cross-Functional Collaboration
 Data engineers, planners, marketing, finance, and executives all play key roles in validating and contextualizing data.
 
-#2.5 Linking Data to Business Problems
+# 2.5 Linking Data to Business Problems
 Each dataset addresses a specific challenge—sell-out data prevents stockouts, promotions explain spikes, competitive data reduces unexplained variance, etc.
 
 #2.6 Samsung-Specific Risks
@@ -81,3 +81,31 @@ Each dataset addresses a specific challenge—sell-out data prevents stockouts, 
 •	Standardized time granularity
 •	Consolidated event calendar
 •	Harmonized region mapping
+
+# 3. Data Preparation
+# 3.1 Data Selection
+Data sources chosen specifically improve accuracy, reduce variance, and support scenario modeling.
+
+# 3.2 Data Cleaning
+•	Imputation using moving averages
+•	Reconstructing promotion flags
+•	Forward-filling economic indicators
+•	Outlier capping when not event-driven
+•	Removing duplicates and aligning timestamps
+
+# 3.3 Feature Engineering
+Includes temporal features, promotion indicators, competitor indexes, rolling averages, lagged demand, and supply-chain variability.
+
+#3.4 Data Integration
+Four alignment layers:
+•	SKU alignment
+•	Time alignment
+•	Region mapping
+•	Event integration
+
+# 3.5 Governance & Leadership
+Shared data dictionary, automated DQ checks, version-controlled pipelines, and transparent communication.
+
+# 3.6 Output
+A clean, unified, modeling-ready dataset with documented features and alignment across teams.
+
