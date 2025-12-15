@@ -109,4 +109,75 @@ Shared data dictionary, automated DQ checks, version-controlled pipelines, and t
 # 3.6 Output
 A clean, unified, modeling-ready dataset with documented features and alignment across teams.
 
+# 4. Modeling
+
+# 4.1 Modeling Strategy
+
+A hybrid approach combines:
+
+· SARIMA for stable seasonal patterns
+
+· Gradient-boosted trees for nonlinear interactions
+
+· Hierarchical forecasting (HTS) for coherent roll-ups
+
+# 4.2 Feature Usage
+
+Models incorporate temporal, event-driven, competitive, macroeconomic, and operational features.
+
+# 4.3 Scenario Planning
+
+Three scenarios enhance readiness:
+
+· Demand surge (best-case)
+
+· Demand decline (worst-case)
+
+· Operational disruption
+
+# 4.4 Evaluation Framework
+
+Metrics include MAPE, RMSE, and rolling forecast error. Coherence checks ensure aggregation consistency.
+
+# 4.5 Governance & Explainability
+
+SHAP values, partial dependency plots, drift monitoring, and full documentation.
+
+# 4.6 Leadership Role
+
+Balancing accuracy with interpretability, guiding communication, avoiding overfitting, and ensuring business relevance.
+
+# 4.7 Output
+
+A ready-to-evaluate hybrid forecasting system with explainability assets.
+
+# 5. Evaluation
+
+# 5.1 Objectives
+
+Confirm accuracy, stability, coherence, robustness, and stakeholder trust.
+
+# 5.2 Metrics
+
+MAPE, RMSE, and rolling forecast error.
+
+# 5.3 Coherence Checks
+
+SKU → product line and regional roll-ups must match.
+
+# 5.4 Scenario Testing
+
+Validates model behavior under best, worst, and disruption scenarios.
+
+# 5.5 Executive Validation
+
+Shadow-mode testing compares model outputs with planner forecasts, improving trust and adoption.
+
+# 5.6 Leadership Responsibilities
+
+Ensure evaluation focuses on business value, maintain transparency, prevent premature deployment, and support iterative improvements.
+
+# 5.7 Output
+
+Accuracy reports, scenario results, consistency checks, and Go/No-Go recommendation. 
 
