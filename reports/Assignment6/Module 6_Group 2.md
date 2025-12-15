@@ -181,3 +181,36 @@ Ensure evaluation focuses on business value, maintain transparency, prevent prem
 
 Accuracy reports, scenario results, consistency checks, and Go/No-Go recommendation. 
 
+# 6. Deployment
+# 6.1 Objectives
+Integrate forecasting into S&OP, allocation, and marketing workflows while ensuring reliability and usability.
+
+# 6.2 Technical Approach
+Cloud-based model service with automated pipelines, batch forecasting, scenario interface, and dashboards.
+
+# 6.3 Decision Integration
+Monthly S&OP
+Regional allocation
+Marketing planning
+Executive dashboards
+
+# 6.4 Monitoring & Maintenance
+Weekly accuracy tracking, drift detection, monthly retraining, quarterly feature review, and scenario recalibration.
+
+# 6.5 Change Management
+Training, ownership alignment, override rules, and continuous feedback loops.
+
+# 6.6 Leadership Role
+Communicate clearly, address resistance, guide adoption, ensure transparency, and demonstrate impact.
+
+# 6.7 Output
+A production-ready forecasting system with governance, dashboards, monitoring, and continuous-improvement processes.
+
+
+# Conclusion
+This project demonstrates how a structured analytics approach can directly address Samsung’s forecasting challenges and strengthen decision-making across the organization. By applying the CRISP-DM methodology, the initiative moves systematically from defining the business problem to preparing data, developing hybrid models, validating performance, and establishing a sustainable deployment process.
+The resulting forecasting system delivers more accurate and stable predictions, coherent roll-ups across regions and product lines, and realistic scenarios that help teams anticipate market shifts. Equally important, the deployment framework ensures that analytics is not treated as a standalone model—it becomes an integrated, trusted component of Samsung’s S&OP, allocation planning, and strategic discussions.
+From a leadership perspective, the project highlights the importance of cross-functional collaboration, transparency around data and modeling decisions, and ongoing communication with stakeholders. The long-term success of the program depends not only on technical accuracy but on building trust, supporting adoption.
+With the foundation now in place, Samsung is positioned to scale this capability globally and continuously refine it as market conditions, data sources, and business priorities evolve.
+
+
